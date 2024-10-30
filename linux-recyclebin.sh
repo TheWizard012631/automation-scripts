@@ -1,4 +1,11 @@
 #!/bin/bash
+
+which unsafe-rm>/dev/null;
+if [ $? -ne 0 ]; then
+  echo 'Changes seems already made. Exiting.';
+  exit -1;
+fi;
+
 sudo apt install trash-cli;
 
 rm_dir=$(dirname $(which rm));
