@@ -10,3 +10,4 @@ You can run this script by running
 ```bash
 curl https://raw.githubusercontent.com/TheWizard012631/automation-scripts/refs/heads/main/linux-recyclebin.sh | sh
 ```
+⚠ This script will only work on debian-based distros due to the use of apt ⚠
