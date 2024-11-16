@@ -1,7 +1,7 @@
 #!/bin/bash
 
 which unsafe-rm>/dev/null;
-if [ $? -ne 0 ]; then
+if [ $? -eq 0 ]; then
   echo 'Changes seems already made. Exiting.';
   exit -1;
 fi;
