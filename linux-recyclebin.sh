@@ -3,7 +3,7 @@
 which unsafe-rm>/dev/null;
 if [ $? -eq 0 ]; then
   echo 'Changes seems already made. Exiting.';
-  exit -1;
+  exit 1;
 fi;
 
 sudo apt install trash-cli;
