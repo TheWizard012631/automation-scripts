@@ -34,4 +34,5 @@ sudo bash << EOF
     echo '---------------------------------------------------------------------------------';
     echo 'Installation successful !';
     echo 'Start a new shell or run "zsh" to use oh-my-zsh';
+    echo '/!\ A certain delay is to be expected on first run /!\';
 EOF
